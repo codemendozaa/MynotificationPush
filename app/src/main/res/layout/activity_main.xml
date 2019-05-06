@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        tools:context="com.example.mynotificationpush.MainActivity"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <ImageView
+                    android:id="@+id/img_logo_tool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_toolbar"
+                    tools:ignore="ContentDescription"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <Button
+                android:id="@+id/btnShareStarWars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/share_starwars"
+        />
+
+        <Button
+                android:id="@+id/btnShareAmelie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/share_amelie"
+        />
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_dialog_email"/>
+
+
+
+
+</android.support.design.widget.AppBarLayout>

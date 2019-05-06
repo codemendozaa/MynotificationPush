@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emailCreateAccountButton" type="id"/>
+    <item name="emailSignInButton" type="id"/>
+    <item name="signOutButton" type="id"/>
+    <item name="verifyEmailButton" type="id"/>
+</resources>

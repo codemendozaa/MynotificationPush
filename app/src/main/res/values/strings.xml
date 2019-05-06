@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MynotificationPush</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_token_fmt"/>
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="Create_Account">create Account</string>
+    <string name="singIn_Account">singIn</string>
+    <string name="create_account_button">createAccount</string>
+    <string name="signin_button">singIn</string>
+    <string name="share_amelie">share_amelie</string>
+    <string name="share_starwars">share_starwars</string>
+</resources>
